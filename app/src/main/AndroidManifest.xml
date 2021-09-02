@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.khaled.mlbarcodescanner">
+    package="com.khaled.logintest">
 
     <uses-sdk tools:overrideLibrary="
       androidx.camera.camera2, androidx.camera.core,
@@ -26,6 +26,14 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="jkoslogintest" />
             </intent-filter>
         </activity>
     </application>

@@ -1,4 +1,4 @@
-package com.khaled.mlbarcodescanner
+package com.khaled.logintest
 
 import org.junit.Test
 
